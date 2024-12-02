@@ -1,0 +1,51 @@
+Testing unsigned 32 bits with 32768 rows
+Testing on Machine c5.24xlarge
+Using 1 threads
+lowest fractional measurement for comparisons: 1/4096
+lowest fractional measurement for comparisons containing both positive and negative numbers: 1/8192
+Default multDepth: 50
+Newly computed firstMod for ring size 2^16: 43
+Newly computed dcrtbits for ring size 2^16: 42
+Computed multDepth based on predicate and aggregation operations: 41
+
+CKKS scheme is using ring dimension 65536
+
+generated db columns for header test_data
+Successfully filled the db with random values 
+formulating the query to send to the server
+starting query evaluation
+
+Time taken for query compression: 0 seconds
+Time taken for xz compression: 0 seconds
+Time taken for query decompression: 0 seconds
+Time taken for query expansion: 0 seconds
+
+Time taken for subquery test_data > 0: 25.767 seconds
+
+Time taken to evaluate predicate expression: 0 seconds
+
+Total time taken for predicate evaluation: 25.767 seconds
+
+Time taken for the count operation: 0.04 seconds
+
+Total time taken to evaluate all aggregation expressions: 0 seconds
+
+Total end-to-end query time: 25.767 seconds
+
+Query results: 
+
+Remaining levels after COUNT operation: 0
+
+The size of the compressed response is: 3148955 bytes.
+
+Estimated response compression time for COUNT operation: 0.004000 seconds
+Estimated response decompression time for COUNT operation: 0.185000 seconds
+
+Percent error between encrypted count and expected count from ciphertext operations: 0.0000000065 %
+Percent error between encrypted count and actual expected count: 0.0000534189 %
+
+ENC_COUNT: 16419
+PUB_COUNT: 16419
+EXP_COUNT: 16419
+
+

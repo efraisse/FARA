@@ -1,0 +1,420 @@
+Running Test #1: 
+
+Testing TPC-H 6 query with 262144 rows
+Testing on Machine c5.24xlarge
+Using 1 threads
+lowest fractional measurement for comparisons: 1/32768
+lowest fractional measurement for comparisons containing both positive and negative numbers: 1/65536
+
+Computed or desired multDepth: 36
+Newly computed firstMod: 50
+Newly computed dcrtbits: 49
+
+CKKS scheme is using ring dimension 65536
+
+generated db columns for header quanlity_data
+generated db columns for header extended_price
+generated db columns for header discount_data
+generated db columns for header ship_date
+Successfully filled the db with TPC-H values 
+formulating the query to send to the server
+The size of the compressed query is: 38805063 bytes.
+starting query evaluation
+
+Time taken for query compression: 0.134 seconds
+Time taken for xz compression: 0 seconds
+Time taken for query decompression: 0.215 seconds
+Time taken for query expansion: 8.784 seconds
+
+Time taken for subquery ship_date < 9131: 57.079 seconds
+Time taken for subquery ship_date >= 8766: 56.168 seconds
+Time taken for subquery discount_data <= 0.12: 18.628 seconds
+Time taken for subquery discount_data >= 0.06: 18.437 seconds
+Time taken for subquery quanlity_data < 15: 24.708 seconds
+
+Time taken to evaluate predicate expression: 2.082 seconds
+
+Total time taken for predicate evaluation: 177.102 seconds
+
+Time taken for the count operation: 0.042 seconds
+Time taken for client-side aggregation operation 1: 0.025 seconds
+Time taken for selection operation 1: 0.591 seconds
+Time taken for aggregation operation 1: 0.004 seconds
+Response compression time for aggregation operation: 1: 0.001 seconds
+Response decompression time for aggregation operation: 1: 0.196 seconds
+
+Total time taken to evaluate all aggregation expressions: 0.817 seconds
+
+Total end-to-end query time: 187.052 seconds
+
+Query results: 
+
+Remaining levels after COUNT operation: 1
+
+The size of the compressed response is: 1051527 bytes.
+
+Estimated response compression time for COUNT operation: 0.000000 seconds
+Estimated response decompression time for COUNT operation: 0.196000 seconds
+
+Percent error between encrypted count and expected count from ciphertext operations: 0.0000128523 %
+Percent error between encrypted count and actual expected count: 0.0016726152 %
+Percent error between expected count from ciphertext operations and actual expected count: 0.0016597627 %
+
+ENC_COUNT: 5226
+PUB_COUNT: 5226
+EXP_COUNT: 5226
+
+Results for aggregation query at index 1:
+Remaining levels after SUM operation: 0
+
+The size of the compressed response is: 1051527 bytes.
+
+Estimated response compression time for the aggregation operation: 0.001000 seconds
+Estimated response decompression time for the aggregation operation: 0.196000 seconds
+
+Estimated encrypted sum: 4745523.590635
+Expected sum from ciphertext operations: 4745522.244150
+Actual expected sum: 4745889.748900
+Percent error between encrypted sum and expected sum from ciphertext operations: 0.0000283738 %
+Percent error between encrypted sum and actual expected sum: -0.0077152712 %
+Percent error between expected sum from ciphertext operations and actual expected sum: -0.0077436428 %
+
+
+
+
+Running Test #2: 
+
+Testing TPC-H 6 query with 262144 rows
+Testing on Machine c5.24xlarge
+Using 1 threads
+lowest fractional measurement for comparisons: 1/32768
+lowest fractional measurement for comparisons containing both positive and negative numbers: 1/65536
+
+Computed or desired multDepth: 36
+Newly computed firstMod: 50
+Newly computed dcrtbits: 49
+
+CKKS scheme is using ring dimension 65536
+
+generated db columns for header quanlity_data
+generated db columns for header extended_price
+generated db columns for header discount_data
+generated db columns for header ship_date
+Successfully filled the db with TPC-H values 
+formulating the query to send to the server
+The size of the compressed query is: 38805063 bytes.
+starting query evaluation
+
+Time taken for query compression: 0.107 seconds
+Time taken for xz compression: 0 seconds
+Time taken for query decompression: 0.212 seconds
+Time taken for query expansion: 8.8 seconds
+
+Time taken for subquery ship_date < 9131: 53.704 seconds
+Time taken for subquery ship_date >= 8766: 52.668 seconds
+Time taken for subquery discount_data <= 0.12: 17.745 seconds
+Time taken for subquery discount_data >= 0.06: 17.681 seconds
+Time taken for subquery quanlity_data < 15: 24.443 seconds
+
+Time taken to evaluate predicate expression: 1.739 seconds
+
+Total time taken for predicate evaluation: 167.98 seconds
+
+Time taken for the count operation: 0.042 seconds
+Time taken for client-side aggregation operation 1: 0.025 seconds
+Time taken for selection operation 1: 0.548 seconds
+Time taken for aggregation operation 1: 0.005 seconds
+Response compression time for aggregation operation: 1: 0.001 seconds
+Response decompression time for aggregation operation: 1: 0.195 seconds
+
+Total time taken to evaluate all aggregation expressions: 0.774 seconds
+
+Total end-to-end query time: 177.873 seconds
+
+Query results: 
+
+Remaining levels after COUNT operation: 1
+
+The size of the compressed response is: 1051527 bytes.
+
+Estimated response compression time for COUNT operation: 0.000000 seconds
+Estimated response decompression time for COUNT operation: 0.195000 seconds
+
+Percent error between encrypted count and expected count from ciphertext operations: 0.0000127165 %
+Percent error between encrypted count and actual expected count: 0.0016724794 %
+Percent error between expected count from ciphertext operations and actual expected count: 0.0016597627 %
+
+ENC_COUNT: 5226
+PUB_COUNT: 5226
+EXP_COUNT: 5226
+
+Results for aggregation query at index 1:
+Remaining levels after SUM operation: 0
+
+The size of the compressed response is: 1051527 bytes.
+
+Estimated response compression time for the aggregation operation: 0.001000 seconds
+Estimated response decompression time for the aggregation operation: 0.195000 seconds
+
+Estimated encrypted sum: 4745523.549397
+Expected sum from ciphertext operations: 4745522.244150
+Actual expected sum: 4745889.748900
+Percent error between encrypted sum and expected sum from ciphertext operations: 0.0000275048 %
+Percent error between encrypted sum and actual expected sum: -0.0077161401 %
+Percent error between expected sum from ciphertext operations and actual expected sum: -0.0077436428 %
+
+
+
+
+Running Test #3: 
+
+Testing TPC-H 6 query with 262144 rows
+Testing on Machine c5.24xlarge
+Using 1 threads
+lowest fractional measurement for comparisons: 1/32768
+lowest fractional measurement for comparisons containing both positive and negative numbers: 1/65536
+
+Computed or desired multDepth: 36
+Newly computed firstMod: 50
+Newly computed dcrtbits: 49
+
+CKKS scheme is using ring dimension 65536
+
+generated db columns for header quanlity_data
+generated db columns for header extended_price
+generated db columns for header discount_data
+generated db columns for header ship_date
+Successfully filled the db with TPC-H values 
+formulating the query to send to the server
+The size of the compressed query is: 38805063 bytes.
+starting query evaluation
+
+Time taken for query compression: 0.131 seconds
+Time taken for xz compression: 0 seconds
+Time taken for query decompression: 0.211 seconds
+Time taken for query expansion: 8.543 seconds
+
+Time taken for subquery ship_date < 9131: 53.671 seconds
+Time taken for subquery ship_date >= 8766: 52.161 seconds
+Time taken for subquery discount_data <= 0.12: 17.712 seconds
+Time taken for subquery discount_data >= 0.06: 17.875 seconds
+Time taken for subquery quanlity_data < 15: 24.697 seconds
+
+Time taken to evaluate predicate expression: 1.754 seconds
+
+Total time taken for predicate evaluation: 167.87 seconds
+
+Time taken for the count operation: 0.04 seconds
+Time taken for client-side aggregation operation 1: 0.026 seconds
+Time taken for selection operation 1: 0.502 seconds
+Time taken for aggregation operation 1: 0.004 seconds
+Response compression time for aggregation operation: 1: 0.001 seconds
+Response decompression time for aggregation operation: 1: 0.196 seconds
+
+Total time taken to evaluate all aggregation expressions: 0.729 seconds
+
+Total end-to-end query time: 177.484 seconds
+
+Query results: 
+
+Remaining levels after COUNT operation: 1
+
+The size of the compressed response is: 1051527 bytes.
+
+Estimated response compression time for COUNT operation: 0.001000 seconds
+Estimated response decompression time for COUNT operation: 0.196000 seconds
+
+Percent error between encrypted count and expected count from ciphertext operations: 0.0000124080 %
+Percent error between encrypted count and actual expected count: 0.0016721709 %
+Percent error between expected count from ciphertext operations and actual expected count: 0.0016597627 %
+
+ENC_COUNT: 5226
+PUB_COUNT: 5226
+EXP_COUNT: 5226
+
+Results for aggregation query at index 1:
+Remaining levels after SUM operation: 0
+
+The size of the compressed response is: 1051527 bytes.
+
+Estimated response compression time for the aggregation operation: 0.001000 seconds
+Estimated response decompression time for the aggregation operation: 0.196000 seconds
+
+Estimated encrypted sum: 4745523.551902
+Expected sum from ciphertext operations: 4745522.244150
+Actual expected sum: 4745889.748900
+Percent error between encrypted sum and expected sum from ciphertext operations: 0.0000275576 %
+Percent error between encrypted sum and actual expected sum: -0.0077160873 %
+Percent error between expected sum from ciphertext operations and actual expected sum: -0.0077436428 %
+
+
+
+
+Running Test #4: 
+
+Testing TPC-H 6 query with 262144 rows
+Testing on Machine c5.24xlarge
+Using 1 threads
+lowest fractional measurement for comparisons: 1/32768
+lowest fractional measurement for comparisons containing both positive and negative numbers: 1/65536
+
+Computed or desired multDepth: 36
+Newly computed firstMod: 50
+Newly computed dcrtbits: 49
+
+CKKS scheme is using ring dimension 65536
+
+generated db columns for header quanlity_data
+generated db columns for header extended_price
+generated db columns for header discount_data
+generated db columns for header ship_date
+Successfully filled the db with TPC-H values 
+formulating the query to send to the server
+The size of the compressed query is: 38805063 bytes.
+starting query evaluation
+
+Time taken for query compression: 0.134 seconds
+Time taken for xz compression: 0 seconds
+Time taken for query decompression: 0.212 seconds
+Time taken for query expansion: 8.383 seconds
+
+Time taken for subquery ship_date < 9131: 53.442 seconds
+Time taken for subquery ship_date >= 8766: 52.216 seconds
+Time taken for subquery discount_data <= 0.12: 17.906 seconds
+Time taken for subquery discount_data >= 0.06: 17.755 seconds
+Time taken for subquery quanlity_data < 15: 24.313 seconds
+
+Time taken to evaluate predicate expression: 1.754 seconds
+
+Total time taken for predicate evaluation: 167.386 seconds
+
+Time taken for the count operation: 0.038 seconds
+Time taken for client-side aggregation operation 1: 0.025 seconds
+Time taken for selection operation 1: 0.499 seconds
+Time taken for aggregation operation 1: 0.004 seconds
+Response compression time for aggregation operation: 1: 0.001 seconds
+Response decompression time for aggregation operation: 1: 0.195 seconds
+
+Total time taken to evaluate all aggregation expressions: 0.724 seconds
+
+Total end-to-end query time: 176.839 seconds
+
+Query results: 
+
+Remaining levels after COUNT operation: 1
+
+The size of the compressed response is: 1051527 bytes.
+
+Estimated response compression time for COUNT operation: 0.000000 seconds
+Estimated response decompression time for COUNT operation: 0.196000 seconds
+
+Percent error between encrypted count and expected count from ciphertext operations: 0.0000128144 %
+Percent error between encrypted count and actual expected count: 0.0016725773 %
+Percent error between expected count from ciphertext operations and actual expected count: 0.0016597627 %
+
+ENC_COUNT: 5226
+PUB_COUNT: 5226
+EXP_COUNT: 5226
+
+Results for aggregation query at index 1:
+Remaining levels after SUM operation: 0
+
+The size of the compressed response is: 1051527 bytes.
+
+Estimated response compression time for the aggregation operation: 0.001000 seconds
+Estimated response decompression time for the aggregation operation: 0.195000 seconds
+
+Estimated encrypted sum: 4745523.560081
+Expected sum from ciphertext operations: 4745522.244150
+Actual expected sum: 4745889.748900
+Percent error between encrypted sum and expected sum from ciphertext operations: 0.0000277299 %
+Percent error between encrypted sum and actual expected sum: -0.0077159150 %
+Percent error between expected sum from ciphertext operations and actual expected sum: -0.0077436428 %
+
+
+
+
+Running Test #5: 
+
+Testing TPC-H 6 query with 262144 rows
+Testing on Machine c5.24xlarge
+Using 1 threads
+lowest fractional measurement for comparisons: 1/32768
+lowest fractional measurement for comparisons containing both positive and negative numbers: 1/65536
+
+Computed or desired multDepth: 36
+Newly computed firstMod: 50
+Newly computed dcrtbits: 49
+
+CKKS scheme is using ring dimension 65536
+
+generated db columns for header quanlity_data
+generated db columns for header extended_price
+generated db columns for header discount_data
+generated db columns for header ship_date
+Successfully filled the db with TPC-H values 
+formulating the query to send to the server
+The size of the compressed query is: 38805063 bytes.
+starting query evaluation
+
+Time taken for query compression: 0.113 seconds
+Time taken for xz compression: 0 seconds
+Time taken for query decompression: 0.212 seconds
+Time taken for query expansion: 8.568 seconds
+
+Time taken for subquery ship_date < 9131: 54.258 seconds
+Time taken for subquery ship_date >= 8766: 52.371 seconds
+Time taken for subquery discount_data <= 0.12: 17.732 seconds
+Time taken for subquery discount_data >= 0.06: 17.756 seconds
+Time taken for subquery quanlity_data < 15: 24.432 seconds
+
+Time taken to evaluate predicate expression: 1.743 seconds
+
+Total time taken for predicate evaluation: 168.292 seconds
+
+Time taken for the count operation: 0.043 seconds
+Time taken for client-side aggregation operation 1: 0.027 seconds
+Time taken for selection operation 1: 0.518 seconds
+Time taken for aggregation operation 1: 0.007 seconds
+Response compression time for aggregation operation: 1: 0.001 seconds
+Response decompression time for aggregation operation: 1: 0.196 seconds
+
+Total time taken to evaluate all aggregation expressions: 0.749 seconds
+
+Total end-to-end query time: 177.934 seconds
+
+Query results: 
+
+Remaining levels after COUNT operation: 1
+
+The size of the compressed response is: 1051527 bytes.
+
+Estimated response compression time for COUNT operation: 0.000000 seconds
+Estimated response decompression time for COUNT operation: 0.196000 seconds
+
+Percent error between encrypted count and expected count from ciphertext operations: 0.0000125055 %
+Percent error between encrypted count and actual expected count: 0.0016722684 %
+Percent error between expected count from ciphertext operations and actual expected count: 0.0016597627 %
+
+ENC_COUNT: 5226
+PUB_COUNT: 5226
+EXP_COUNT: 5226
+
+Results for aggregation query at index 1:
+Remaining levels after SUM operation: 0
+
+The size of the compressed response is: 1051527 bytes.
+
+Estimated response compression time for the aggregation operation: 0.001000 seconds
+Estimated response decompression time for the aggregation operation: 0.196000 seconds
+
+Estimated encrypted sum: 4745523.571615
+Expected sum from ciphertext operations: 4745522.244150
+Actual expected sum: 4745889.748900
+Percent error between encrypted sum and expected sum from ciphertext operations: 0.0000279730 %
+Percent error between encrypted sum and actual expected sum: -0.0077156720 %
+Percent error between expected sum from ciphertext operations and actual expected sum: -0.0077436428 %
+
+
+
+

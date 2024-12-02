@@ -1,0 +1,78 @@
+Testing 16 bits with 32768 rows
+Testing on Machine c5.24xlarge
+Using 48 threads
+lowest fractional measurement for comparisons: 1/131072
+lowest fractional measurement for comparisons containing both positive and negative numbers: 1/262144
+
+Computed or desired multDepth: 43
+Newly computed firstMod: 42
+Newly computed dcrtbits: 41
+
+CKKS scheme is using ring dimension 65536
+
+generated db columns for header test_data
+Successfully filled the db with random values 
+printing the contents of the encrypted db: 
+header test_data's rows and columns:
+Row: 0: Col 0: 
+
+    [ -12992.000000000, 4082.000000000, 30041.000000000, -2607.000000000, -24470.000000000, ..., 19729.000000000, 16363.000000000, -14893.000000000, -26310.000000000, -2766.000000000 ]
+
+formulating the query to send to the server
+starting query evaluation
+
+Time taken for query compression: 0 seconds
+Time taken for xz compression: 0 seconds
+Time taken for query decompression: 0 seconds
+Time taken for query expansion: 0 seconds
+
+Time taken for subquery test_data == 0: 10.768 seconds
+
+Time taken to evaluate predicate expression: 0 seconds
+
+Total time taken for predicate evaluation: 10.768 seconds
+
+Time taken for the count operation: 0.049 seconds
+Time taken for client-side aggregation operation 1: 0.026 seconds
+Time taken for selection operation 1: 0.073 seconds
+Time taken for aggregation operation 1: 0 seconds
+Response compression time for aggregation operation: 1: 0.001 seconds
+Response decompression time for aggregation operation: 1: 0.202 seconds
+
+Total time taken to evaluate all aggregation expressions: 0.302 seconds
+
+Total end-to-end query time: 11.07 seconds
+
+Query results: 
+
+Remaining levels after COUNT operation: 1
+
+The size of the compressed response is: 1051823 bytes.
+
+Estimated response compression time for COUNT operation: 0.001000 seconds
+Estimated response decompression time for COUNT operation: 0.202000 seconds
+
+Percent error between encrypted count and expected count from ciphertext operations: 0.0350768536 %
+Percent error between encrypted count and actual expected count: 0.1741521583 %
+Percent error between expected count from ciphertext operations and actual expected count: 0.1390265386 %
+
+ENC_COUNT: 1
+PUB_COUNT: 1
+EXP_COUNT: 1
+
+Results for aggregation query at index 1:
+Remaining levels after SUM operation: 0
+
+The size of the compressed response is: 1051823 bytes.
+
+Estimated response compression time for the aggregation operation: 0.001000 seconds
+Estimated response decompression time for the aggregation operation: 0.202000 seconds
+
+Estimated encrypted sum: -0.108609
+Expected sum from ciphertext operations: -0.081458
+Actual expected sum: 0.000000
+Percent error between encrypted sum and expected sum from ciphertext operations: 33.3302528418 %
+Percent error could not be calculated for the encrypted sum result since the actual sum result is 0
+Percent error could not be calculated for the expected sum from ciphertext operations result since the actual sum result is 0
+
+
