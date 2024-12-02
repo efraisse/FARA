@@ -30,3 +30,9 @@
 *.exe
 *.out
 *.app
+
+# other files
+build/*
+comp_query.txt
+comp_resp.txt
+*.tbl
